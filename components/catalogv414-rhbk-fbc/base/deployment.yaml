@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: catalogv414-rhbk-fbc
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/arewm-tenant/rhbk-fbc/catalogv414-rhbk-fbc@sha256:cebb19676e8eb7f8471439920a1a60ad15c2b17d526d072ac065b2e97b9de301
         imagePullPolicy: Always
         name: container-image
         ports:
